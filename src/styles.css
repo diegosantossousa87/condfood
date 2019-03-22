@@ -8,6 +8,28 @@ body {
   color: inherit;
 }
 
+.main-header .logo{
+  width: auto;
+  float:left;
+}
+.main-header .logo img{
+   width: 140px;
+}
+a{
+  color:#333;
+}
+.clearFloat{
+  clear: both
+}
+
+.navbar-toggle{
+  color:#333;
+  font-size: 20px;
+  float:right;
+}
+.nav>li a{
+  background-color: #fff;
+}
 /*
  * Component: Place Info Box
  * -------------------
@@ -112,6 +134,9 @@ body {
  * Component: Menu Item
  * -------------------
  */
+ .welcome-jumbotron h1{
+   letter-spacing: -4px;
+ }
 .menu-item-info-box {
   color: #555;
   display: block;
